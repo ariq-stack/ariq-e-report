@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | E-Report IDN</title>
+    <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
+
+    <!-- Css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- My css -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- cdn fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-primary-subtle py-4">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <img src="./assets/images/logo.jpg" alt="Logo" width="30" class="d-inline-block align-text-top rounded">
+                <span class="fw-bold text-primary-emphasis">IDN E-Report</span>
+            </a>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-4 pt-4 pt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#recent">Recent</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-primary" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- semua laporan -->
+    <section id="reports">
+        <div class="container">
+            <!-- judul -->
+            <div>
+                <h1 class="fw-bold text-primary-emphasis">Semua laporan</h1>
+                <p class="text-secondary lh-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt labore veritatis, veniam officia
+                    delectus necessitatibus quia consequuntur esse, molestias voluptatum maiores sunt enim in
+                    architecto!</p>
+            </div>
+
+            <!-- filter -->
+             <div class="row gap-3 md-0 mt-5">
+                <div class="col-md-4">
+                    <input type="text" class="form-control" placeholder="Cari laporan...">
+                </div>
+                <div class="col">
+                    <select class="form-select">
+                        <option selected>Pilih Kategori</option>
+                        <option value="1">Akademik</option>
+                        <option value="2">Fasilitas</option>
+                        <option value="3">Anonymous</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <div class="col">
+                    <select class="form-select">
+                        <option value="">Urutkan</option>
+                        <option value="terbaru">Terbaru</option>
+                        <option value="terlama">Terlama</option>
+                    </select>
+                </div>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary w-100">
+                        <i class="fa-solid fa-filter"></i>
+                        Filter
+                    </button>
+                </div>
+             </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-4 align-items-start">
+                <div class="col-lg-5 col-md-12">
+                    <div class="site-footer__brand">
+                        <img src="./assets/images/logo.jpg" alt="Logo">
+                        <h3>IDN E-Report</h3>
+                    </div>
+                    <p class="site-footer__text">
+                        Platform pengaduan digital yang membantu siswa dan warga sekolah menyampaikan keluhan dengan
+                        cepat, aman, dan transparan.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="site-footer__links">
+                        <h4>Menu</h4>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#recent">Recent</a>
+                        <a href="#faq">FAQ</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="site-footer__links">
+                        <h4>Kontak</h4>
+                        <a href="mailto:ariqfathi@gmail.com">ariqfathi@gmail.com</a>
+                        <a href="tel:+6285156256177">+62 851-5625-6177</a>
+                        <a href="#">Jl. Pendidikan No. 12</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer__bottom">
+                © 2026 E-Report. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+</body>
+
+</html>

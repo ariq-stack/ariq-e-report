@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | E-Report IDN</title>
-    <link rel="shortcut icon" href="assets/images/logo.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
 
     <!-- Css bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,18 +13,30 @@
 
     <!-- My css -->
     <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- cdn fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- cdn animate css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- cdn aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary-subtle py-4">
+    <nav class="animate__animated animate__fadeInDown navbar navbar-expand-lg sticky-top bg-primary-subtle py-4">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center gap-2" href="#">
                 <img src="./assets/images/logo.jpg" alt="Logo" width="30" class="d-inline-block align-text-top rounded">
                 <span class="fw-bold text-primary-emphasis">IDN E-Report</span>
             </a>
-            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,24 +51,332 @@
                         <a class="nav-link text-primary" href="#">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Recent</a>
+                        <a class="nav-link text-primary" href="#recent">Recent</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">FAQ</a>
+                        <a class="nav-link text-primary" href="#faq">FAQ</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+    <!-- Hero section -->
+    <section id="hero">
+        <div class="container">
+            <div class="row align-items-center g-5 text-center text-lg-start py-5">
 
-    <!-- Js bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                <div class="col-12 col-lg-6 animate__animated animate__fadeInLeft animate__delay-1s">
+                    <h1 class="fw-bold">
+                        Selamat Datang <br> di
+                        <span class="text-primary">Aplikasi IDN E-Report 2026</span>
+                        Forum Pengaduan
+                    </h1>
+                    <p class="lh-lg">
+                        IDN E-Report adalah platform pengaduan digital yang memudahkan siapa saja untuk
+                        melaporkan masalah akademik, fasilitas, hingga tindak kekerasan secara cepat, aman,
+                        dan transparan. Laporanmu akan ditindaklanjuti oleh pihak berwenang tanpa perlu
+                        khawatir identitasmu terungkap.
+                    </p>
+                    <div class="mt-4 d-flex gap-2 justify-content-center justify-content-lg-start">
+                        <a class="btn btn-primary mt-4" href="#about">About Us</a>
+                        <a class="btn btn-outline-primary mt-4" href="#">Let's Start</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6 animate__animated animate__fadeInRight animate__delay-2s d-flex justify-content-center justify-content-lg-end">
+                    <img src="./assets/images/hero.png" alt="Ilustrasi pengaduan" class="img-fluid">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1 data-aos="fade-up" data-aos-duration="1000" class="fw-bold text-primary mb-4 py-5">Tentang Kami</h1>
+                    <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="lh-lg mb-5">IDN E-Report hadir sebagai solusi bagi lingkungan pendidikan yang ingin
+                        menciptakan ruang aman untuk menyampaikan keluhan. Kami percaya setiap suara berhak didengar,
+                        baik itu soal fasilitas yang rusak, tindakan tidak menyenangkan, maupun pelanggaran lainnya.
+                        Dengan sistem pelaporan yang mudah dan didukung tim yang responsif, kami berkomitmen menjaga
+                        kenyamanan dan keamanan seluruh warga sekolah/kampus.</p>
+                    <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" src="./assets/images/about.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services">
+        <div class="container">
+            <div>
+                <h1 data-aos="fade-up" data-aos-duration="1000"  class="fw-bold text-primary" py-5>Layanan Kami</h1>
+                <p data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" class="lh-lg">Kami menyediakan berbagai jenis layanan pengaduan yang bisa disesuaikan dengan
+                    kebutuhanmu. Pilih kategori yang paling sesuai dengan masalah yang ingin kamu laporkan.</p>
+
+            </div>
+            <div class="row p-4 p-lg-0 gap-3">
+                <div
+                     data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"  class="col bg-primary-subtle p-4 rounded border border-waring-emphasis shadow-sm text-primary-emphasis">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h4 class="fw-semibold">Pengaduan Akademik</h4>
+                    <p class="lh-lg mt-3">Laporkan masalah terkait proses belajar mengajar, seperti fasilitas kelas yang
+                        tidak layak, jadwal yang bermasalah, atau kendala akademik lainnya.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="col bg-primary-subtle p-4 rounded border border-waring-emphasis shadow-sm text-primary-emphasis">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h4 class="fw-semibold">Pengaduan Fasilitas</h4>
+                    <p class="lh-lg mt-3">Sampaikan keluhan mengenai kerusakan atau kekurangan fasilitas umum, seperti
+                        toilet, ruang kelas, laboratorium, hingga area parkir.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900"  class="col bg-primary-subtle p-4 rounded border border-waring-emphasis shadow-sm text-primary-emphasis">
+                    <i class="fa-solid fa-user-secret"></i>
+                    <h4 class="fw-semibold">Pengaduan Anonymous</h4>
+                    <p class="lh-lg mt-3">Laporkan tindakan yang tidak nyaman atau melanggar aturan tanpa perlu
+                        mencantumkan identitas. Kerahasiaan pelapor sepenuhnya kami jaga.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- recent section -->
+    <section id="recent">
+        <div class="container">
+            <div class="section-heading  mb-5">
+                <h1  data-aos="fade-up" data-aos-duration="1000" class="fw-bold text-primary mb-3  text-end ">Recent Report</h1>
+                <p  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" class="lh-lg mb-0 ">Berikut adalah beberapa laporan terbaru yang masuk dari pengguna. Transparansi ini
+                    kami tampilkan agar masyarakat mengetahui bahwa setiap laporan benar-benar ditindak lanjuti.</p>
+            </div>
+            <div class="row g-4">
+                <div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" class="col-12 col-md-6 col-lg-4">
+                    <article class="card border-0 shadow-sm h-100 report-card">
+                        <div class="position-relative">
+                            <span class="report-card__badge">Akademik</span>
+                            <img src="./assets/images/kelas.jpg" class="card-img-top report-card__image" alt="Kelas kotor">
+                        </div>
+                        <div class="card-body d-flex flex-column gap-2">
+                            <h5 class="card-title mb-1">Laporan Kelas Kotor</h5>
+                            <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Ariq Fathi</a>
+                                • 2 days ago</p>
+                            <p class="card-text">Kondisi kelas yang tidak terawat dengan tumpukan buku berdebu dan kursi
+                                yang berantakan, mengganggu kenyamanan belajar siswa.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                        </div>
+                    </article>
+                </div>
+                <div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" class="col-12 col-md-6 col-lg-4">
+                    <article class="card border-0 shadow-sm h-100 report-card">
+                        <div class="position-relative">
+                            <span class="report-card__badge">Keamanan</span>
+                            <img src="./assets/images/curi.webp" class="card-img-top report-card__image" alt="Pencurian">
+                        </div>
+                        <div class="card-body d-flex flex-column gap-2">
+                            <h5 class="card-title mb-1">Laporan Pencurian</h5>
+                            <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Police</a> • 6
+                                days ago</p>
+                            <p class="card-text">Kasus pencurian yang berhasil diungkap pihak berwajib. Empat pelaku telah
+                                diamankan dan proses hukum sedang berjalan.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                        </div>
+                    </article>
+                </div>
+                <div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="col-12 col-md-6 col-lg-4">
+                    <article class="card border-0 shadow-sm h-100 report-card">
+                        <div class="position-relative">
+                            <span class="report-card__badge">Fasilitas</span>
+                            <img src="./assets/images/lab.jpg" class="card-img-top report-card__image" alt="Lab komputer rusak">
+                        </div>
+                        <div class="card-body d-flex flex-column gap-2">
+                            <h5 class="card-title mb-1">Laporan Labkom Rusak</h5>
+                            <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Dimas Pratama</a>
+                                • 10 days ago</p>
+                            <p class="card-text">Sejumlah unit komputer di laboratorium dilaporkan rusak dan tidak dapat
+                                digunakan, sehingga menghambat kegiatan praktikum siswa selama proses pembelajaran.</p>
+                            <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section>
+        <div class="container">
+            <div  data-aos="fade-up" data-aos-duration="1000" class="row text-center">
+                <H1  data-aos="fade-up" data-aos-duration="1000"  class="fw-bold text-primary">FAQ</H1>
+                <P  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="lh-lg">Masih ada pertanyaan seputar cara menggunakan IDN E-Report? Simak jawaban dari
+                    pertanyaan yang paling sering diajukan berikut ini.</P>
+            </div>
+            <div class="accordion pt-4" id="accordionExample">
+                <div  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false"
+                                    aria-controls="faq1">
+                                    Bagaimana cara membuat laporan pengaduan?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false"
+                                    aria-controls="faq2">
+                                    Apakah identitas saya akan dirahasiakan?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
+                                    aria-controls="faq3">
+                                    Berapa lama laporan saya diproses?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false"
+                                    aria-controls="faq4">
+                                    Apakah saya bisa memantau status laporan saya?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false"
+                                    aria-controls="faq5">
+                                    Apa saja jenis pengaduan yang bisa dilaporkan?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed bg-primary text-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false"
+                                    aria-controls="faq6">
+                                    Apakah laporan palsu bisa dikenakan sanksi?
+                                </button>
+                            </h2>
+                            <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                                    demonstrate the <code>.accordion-flush</code> class. This is the first item’s
+                                    accordion
+                                    body.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-4 align-items-start ">
+                <div class="col-lg-5 col-md-12">
+                    <div class="site-footer__brand">
+                        <img src="./assets/images/logo.jpg" alt="Logo">
+                        <h3>IDN E-Report</h3>
+                    </div>
+                    <p class="site-footer__text">
+                        Platform pengaduan digital yang membantu siswa dan warga sekolah menyampaikan keluhan dengan
+                        cepat, aman, dan transparan.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="site-footer__links">
+                        <h4>Menu</h4>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#recent">Recent</a>
+                        <a href="#faq">FAQ</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="site-footer__links">
+                        <h4>Kontak</h4>
+                        <a href="mailto:ariqfathi@gmail.com">ariqfathi@gmail.com</a>
+                        <a href="tel:+6285156256177">+62 851-5625-6177</a>
+                        <a href="#">Jl. Pendidikan No. 12</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer__bottom">
+                © 2026 E-Report. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- js bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
         integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
         crossorigin="anonymous"></script>
+        
+        <!-- js aos -->
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+
 </body>
 
 </html>
