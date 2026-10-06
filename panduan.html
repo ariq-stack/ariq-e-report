@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="id" style="scroll-padding-top: 110px;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panduan | E-Report IDN</title>
+    <link rel="shortcut icon" href="./assets/images/logo.jpg" type="image/x-icon">
+
+    <!-- Css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- My css -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- cdn fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Js bootstrap (bundle sudah termasuk Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#guide-toc" data-bs-offset="130" tabindex="0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-primary-subtle py-4">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="./assets/images/logo.jpg" alt="Logo" width="30" class="d-inline-block align-text-top rounded">
+                <span class="fw-bold text-primary-emphasis">IDN E-Report</span>
+            </a>
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto gap-4 pt-4 pt-lg-0">
+                    <li class="nav-item"><a class="nav-link text-primary" href="index.html#Hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary" href="index.html#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary" href="index.html#Services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary" href="index.html#recent">Recent</a></li>
+                    <li class="nav-item"><a class="nav-link text-primary" href="index.html#faq">FAQ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- Judul + breadcrumb -->
+        <div class="row align-items-start py-5">
+            <div class="col-lg-8">
+                <h1 class="display-6 fw-bold text-primary-emphasis mb-2">Panduan Menggunakan E-Report</h1>
+                <p class="fs-5 text-secondary mb-3">Cara membuat, memantau, dan menindaklanjuti laporan di IDN E-Report,
+                    dari awal sampai selesai.</p>
+                <div class="d-flex flex-wrap gap-2">
+                    <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-normal fs-6 px-3 py-2"><i
+                            class="fa-solid fa-list-check me-2"></i>6 langkah</span>
+                    <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-normal fs-6 px-3 py-2"><i
+                            class="fa-solid fa-tags me-2"></i>4 kategori</span>
+                    <span class="badge rounded-pill bg-primary-subtle text-primary-emphasis fw-normal fs-6 px-3 py-2"><i
+                            class="fa-regular fa-clock me-2"></i>Baca ±3 menit</span>
+                </div>
+            </div>
+            <div class="col-lg-4 order-first order-lg-last">
+                <nav class="mt-lg-2 mb-3 mb-lg-0" aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Panduan</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row gy-4 mb-5">
+            <!-- Isi panduan -->
+            <div class="col-lg-8">
+
+                <div id="mulai" class="mb-5">
+                    <h2 class="h4 fw-bold text-primary-emphasis mb-3">Sebelum mulai</h2>
+                    <p class="lh-lg">E-Report dipakai siswa dan warga sekolah untuk menyampaikan keluhan, misalnya
+                        fasilitas rusak, kebersihan, atau masalah keamanan. Setiap laporan masuk ke daftar yang bisa
+                        dilihat dan dikomentari, jadi pastikan isinya jelas supaya cepat ditangani.</p>
+                    <div class="alert alert-primary border-start border-4 border-primary d-flex gap-3 align-items-start mb-0"
+                        role="alert">
+                        <i class="fa-solid fa-circle-info mt-1"></i>
+                        <div>Laporan yang spesifik (lokasi, waktu, dan kondisi) lebih cepat diproses daripada laporan
+                            yang hanya berisi "rusak".</div>
+                    </div>
+                </div>
+
+                <div id="langkah" class="mb-5">
+                    <h2 class="h4 fw-bold text-primary-emphasis mb-4">Cara membuat laporan</h2>
+                    <ol class="list-unstyled border-start border-2 border-primary-subtle ms-4 mb-0">
+                        <li class="position-relative ps-5 pb-4">
+                            <span
+                                class="position-absolute top-0 start-0 translate-middle-x d-flex align-items-center justify-content-center rounded-circle bg-primary text-white fw-bold border border-4 border-white"
+                                style="width: 2.8rem; height: 2.8rem;">1</span>
+                            <h3 class="h6 fw-semibold mb-1 pt-1">Buka halaman laporan</h3>
+                            <p class="text-secondary mb-0">Pilih menu <strong>Services</strong>, lalu klik tombol buat
+                                laporan baru.</p>
+                        </li>
+                        <li class="position-relative ps-5 pb-4">
+                            <span
+                                class="position-absolute top-0 start-0 translate-middle-x d-flex align-items-center justify-content-center rounded-circle bg-primary text-white fw-bold border border-4 border-white"
+                                style="width: 2.8rem; height: 2.8rem;">2</span>
+                            <h3 class="h6 fw-semibold mb-1 pt-1">Tulis judul yang singkat dan jelas</h3>
+                            <p class="text-secondary mb-0">Contoh: <em>"AC kelas XI RPL tidak dingin"</em>, bukan
+                                <em>"Tolong dibantu"</em>.</p>
+                        </li>
+                        <li class="position-relative ps-5 pb-4">
+                            <span
+                                class="position-absolute top-0 start-0 translate-middle-x d-flex align-items-center justify-content-center rounded-circle bg-primary text-white fw-bold border border-4 border-white"
+                                style="width: 2.8rem; height: 2.8rem;">3</span>
+                            <h3 class="h6 fw-semibold mb-1 pt-1">Pilih kategori</h3>
+                            <p class="text-secondary mb-0">Kategori membantu laporan sampai ke pihak yang tepat. Lihat
+                                daftarnya di bawah.</p>
+                        </li>
+                        <li class="position-relative ps-5 pb-4">
+                            <span
+                                class="position-absolute top-0 start-0 translate-middle-x d-flex align-items-center justify-content-center rounded-circle bg-primary text-white fw-bold border border-4 border-white"
+                                style="width: 2.8rem; height: 2.8rem;">4</span>
+                            <h3 class="h6 fw-semibold mb-1 pt-1">Jelaskan kejadiannya</h3>
+                            <p class="text-secondary mb-0">Sebutkan apa yang terjadi, di mana, kapan, dan sudah berapa
+                                lama masalah berlangsung.</p>
+                        </li>
+                        <li class="position-relative ps-5 pb-4">
+                            <span
+                                class="position-absolute top-0 start-0 translate-middle-x d-flex align-items-center justify-content-center rounded-circle bg-primary text-white fw-bold border border-4 border-white"
+                                style="width: 2.8rem; height: 2.8rem;">5</span>
+                            <h3 class="h6 fw-semibold mb-1 pt-1">Lampirkan foto bila ada</h3>
+                            <p class="text-secondary mb-0">Foto yang jelas mempercepat verifikasi. Hindari memotret
+                                wajah orang lain tanpa izin.</p>
+                        </li>
+                        <li class="position-relative ps-5">
+                            <span
+                                class="position-absolute top-0 start-0 translate-middle-x d-flex align-items-center justify-content-center rounded-circle bg-primary text-white fw-bold border border-4 border-white"
+                                style="width: 2.8rem; height: 2.8rem;">6</span>
+                            <h3 class="h6 fw-semibold mb-1 pt-1">Kirim dan pantau</h3>
+                            <p class="text-secondary mb-0">Setelah terkirim, laporan muncul di daftar. Balas komentar
+                                lewat halaman detail laporan.</p>
+                        </li>
+                    </ol>
+                </div>
+
+                <div id="kategori" class="mb-5">
+                    <h2 class="h4 fw-bold text-primary-emphasis mb-4">Pilih kategori yang tepat</h2>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="card h-100 rounded-3">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center justify-content-center rounded-3 bg-success-subtle text-success-emphasis mb-3"
+                                        style="width: 2.6rem; height: 2.6rem;"><i
+                                            class="fa-solid fa-screwdriver-wrench"></i></div>
+                                    <h3 class="h6 fw-semibold mb-1">Fasilitas</h3>
+                                    <p class="small text-secondary mb-0">AC, keran, kaca, wifi, dan perangkat lab yang
+                                        rusak.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card h-100 rounded-3">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center justify-content-center rounded-3 bg-primary-subtle text-primary-emphasis mb-3"
+                                        style="width: 2.6rem; height: 2.6rem;"><i class="fa-solid fa-file-lines"></i>
+                                    </div>
+                                    <h3 class="h6 fw-semibold mb-1">Report</h3>
+                                    <p class="small text-secondary mb-0">Laporan umum yang tidak masuk kategori lain.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card h-100 rounded-3">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center justify-content-center rounded-3 bg-warning-subtle text-warning-emphasis mb-3"
+                                        style="width: 2.6rem; height: 2.6rem;"><i class="fa-solid fa-shield-halved"></i>
+                                    </div>
+                                    <h3 class="h6 fw-semibold mb-1">Keamanan</h3>
+                                    <p class="small text-secondary mb-0">Pencurian, kehilangan, atau kejadian yang
+                                        membahayakan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card h-100 rounded-3">
+                                <div class="card-body p-4">
+                                    <div class="d-flex align-items-center justify-content-center rounded-3 bg-info-subtle text-info-emphasis mb-3"
+                                        style="width: 2.6rem; height: 2.6rem;"><i class="fa-solid fa-broom"></i></div>
+                                    <h3 class="h6 fw-semibold mb-1">Kebersihan</h3>
+                                    <p class="small text-secondary mb-0">Kelas, toilet, atau area sekolah yang kotor.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tips" class="mb-5">
+                    <h2 class="h4 fw-bold text-primary-emphasis mb-4">Tips supaya laporan cepat ditangani</h2>
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <div class="card h-100 rounded-3 overflow-hidden">
+                                <div
+                                    class="card-header bg-success-subtle text-success-emphasis fw-semibold border-0 py-3">
+                                    <i class="fa-solid fa-circle-check me-2"></i>Sebaiknya</div>
+                                <ul class="text-secondary my-0 py-3 ps-5 pe-3">
+                                    <li class="mb-2">Sebut lokasi dan waktu dengan jelas</li>
+                                    <li class="mb-2">Satu laporan untuk satu masalah</li>
+                                    <li class="mb-2">Gunakan bahasa yang sopan</li>
+                                    <li>Cek laporan serupa sebelum membuat baru</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card h-100 rounded-3 overflow-hidden">
+                                <div
+                                    class="card-header bg-danger-subtle text-danger-emphasis fw-semibold border-0 py-3">
+                                    <i class="fa-solid fa-circle-xmark me-2"></i>Hindari</div>
+                                <ul class="text-secondary my-0 py-3 ps-5 pe-3">
+                                    <li class="mb-2">Menuduh orang tanpa bukti</li>
+                                    <li class="mb-2">Menulis data pribadi orang lain</li>
+                                    <li class="mb-2">Mengirim laporan yang sama berulang</li>
+                                    <li>Menggunakan kata kasar</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="pertanyaan" class="mb-5">
+                    <h2 class="h4 fw-bold text-primary-emphasis mb-4">Pertanyaan umum</h2>
+                    <div class="accordion" id="guideFaq">
+                        <div class="accordion-item border rounded-3 overflow-hidden mb-2">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button fw-semibold shadow-none" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#q1" aria-expanded="true"
+                                    aria-controls="q1">
+                                    Apakah saya bisa mengedit laporan yang sudah dikirim?
+                                </button>
+                            </h3>
+                            <div id="q1" class="accordion-collapse collapse show" data-bs-parent="#guideFaq">
+                                <div class="accordion-body text-secondary">Tambahkan informasi baru lewat kolom komentar
+                                    di halaman detail laporan agar riwayatnya tetap tercatat.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border rounded-3 overflow-hidden mb-2">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button fw-semibold shadow-none collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#q2" aria-expanded="false"
+                                    aria-controls="q2">
+                                    Berapa lama laporan diproses?
+                                </button>
+                            </h3>
+                            <div id="q2" class="accordion-collapse collapse" data-bs-parent="#guideFaq">
+                                <div class="accordion-body text-secondary">Waktunya bergantung pada jenis masalah.
+                                    Laporan keamanan biasanya didahulukan. Pantau perkembangannya di kolom komentar.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border rounded-3 overflow-hidden">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button fw-semibold shadow-none collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#q3" aria-expanded="false"
+                                    aria-controls="q3">
+                                    Apakah identitas pelapor terlihat?
+                                </button>
+                            </h3>
+                            <div id="q3" class="accordion-collapse collapse" data-bs-parent="#guideFaq">
+                                <div class="accordion-body text-secondary">Nama pelapor tampil di bawah judul laporan
+                                    ("By ..."). Jangan mencantumkan data pribadi yang tidak perlu di isi laporan.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-primary-subtle rounded-3 p-4 d-flex flex-wrap align-items-center justify-content-between gap-3">
+                    <div>
+                        <h2 class="h5 fw-bold text-primary-emphasis mb-1">Sudah paham?</h2>
+                        <p class="mb-0 text-secondary">Lihat laporan yang sudah ada atau buat laporan pertamamu.</p>
+                    </div>
+                    <a href="reports.html" class="btn btn-primary px-4">Lihat semua laporan</a>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-lg-4">
+                <div class="position-sticky" style="top: 110px;">
+                    <div class="card rounded-3 overflow-hidden">
+                        <div class="card-header fw-bold">Daftar isi</div>
+                        <div id="guide-toc" class="list-group list-group-flush"
+                            style="--bs-list-group-active-bg: var(--bs-primary-bg-subtle); --bs-list-group-active-color: var(--bs-primary-text-emphasis); --bs-list-group-active-border-color: var(--bs-border-color);">
+                            <a class="list-group-item list-group-item-action py-3" href="#mulai"><i
+                                    class="fa-solid fa-chevron-right text-primary me-2 small"></i>Sebelum mulai</a>
+                            <a class="list-group-item list-group-item-action py-3" href="#langkah"><i
+                                    class="fa-solid fa-chevron-right text-primary me-2 small"></i>Cara membuat
+                                laporan</a>
+                            <a class="list-group-item list-group-item-action py-3" href="#kategori"><i
+                                    class="fa-solid fa-chevron-right text-primary me-2 small"></i>Pilih kategori</a>
+                            <a class="list-group-item list-group-item-action py-3" href="#tips"><i
+                                    class="fa-solid fa-chevron-right text-primary me-2 small"></i>Tips</a>
+                            <a class="list-group-item list-group-item-action py-3" href="#pertanyaan"><i
+                                    class="fa-solid fa-chevron-right text-primary me-2 small"></i>Pertanyaan umum</a>
+                        </div>
+                    </div>
+
+                    <div class="bg-primary-subtle border border-primary-subtle rounded-3 p-3 mt-3">
+                        <div class="fw-semibold mb-1">Masih bingung?</div>
+                        <p class="small text-secondary mb-2">Hubungi admin lewat email dan sertakan link laporanmu.</p>
+                        <a href="mailto:ariqfathi@gmail.com" class="text-decoration-none fw-semibold"><i
+                                class="fa-regular fa-envelope me-1"></i>ariqfathi@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row gy-4 align-items-start">
+                <div class="col-lg-5 col-md-12">
+                    <div class="site-footer__brand">
+                        <img src="./assets/images/logo.jpg" alt="Logo">
+                        <h3>IDN E-Report</h3>
+                    </div>
+                    <p class="site-footer__text">
+                        Platform pengaduan digital yang membantu siswa dan warga sekolah menyampaikan keluhan dengan
+                        cepat, aman, dan transparan.
+                    </p>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6">
+                    <div class="site-footer__links">
+                        <h4>Menu</h4>
+                        <a href="index.html#Hero">Home</a>
+                        <a href="index.html#About">Tentang Kami</a>
+                        <a href="index.html#Services">Layanan Kami</a>
+                        <a href="index.html#recent">Recent</a>
+                        <a href="index.html#faq">FAQ</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="site-footer__links">
+                        <h4>Kontak</h4>
+                        <a href="mailto:ariqfathi@gmail.com">ariqfathi@gmail.com</a>
+                        <a href="tel:+6285156256177">+62 851-5625-6177</a>
+                        <a href="#">Jl. Pendidikan No. 12</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="site-footer__bottom">
+                © 2026 E-Report. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <script>
+
+        (function () {
+
+            var plan = [
+                ['h1', 'animate__fadeInUp', 0, 0],
+                ['.fs-5.text-secondary', 'animate__fadeInUp', 120, 0],
+                ['.badge.rounded-pill', 'animate__fadeInUp', 240, 90],
+                ['.breadcrumb', 'animate__fadeIn', 200, 0],
+                ['#mulai > *', 'animate__fadeInUp', 0, 100],
+                ['#langkah > h2', 'animate__fadeInUp', 0, 0],
+                ['#langkah li', 'animate__fadeInLeft', 0, 0],
+                ['#kategori > h2, #tips > h2, #pertanyaan > h2', 'animate__fadeInUp', 0, 0],
+                ['#kategori .card', 'animate__fadeInUp', 0, 0],
+                ['#tips .card', 'animate__fadeInUp', 0, 120],
+                ['#pertanyaan .accordion-item', 'animate__fadeInUp', 0, 0],
+                ['.bg-primary-subtle.rounded-3.p-4', 'animate__fadeInUp', 0, 0],
+                ['.position-sticky > *', 'animate__fadeInRight', 300, 150]
+            ];
+
+            var io = new IntersectionObserver(function (entries) {
+                entries.forEach(function (e) {
+                    if (!e.isIntersecting) return;
+                    var el = e.target;
+                    el.style.animationDelay = el.dataset.delay + 'ms';
+                    el.classList.remove('invisible');
+                    el.classList.add('animate__animated', el.dataset.anim);
+                    io.unobserve(el);
+                });
+            }, { threshold: 0.15 });
+
+            plan.forEach(function (p) {
+                document.querySelectorAll(p[0]).forEach(function (el, i) {
+                    el.classList.add('invisible');
+                    el.dataset.anim = p[1];
+                    el.dataset.delay = p[2] + i * p[3];
+                    io.observe(el);
+                });
+            });
+        })();
+    </script>
+</body>
+
+</html>

@@ -32,7 +32,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top bg-primary-subtle py-4">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
                 <img src="./assets/images/logo.jpg" alt="Logo" width="30" class="d-inline-block align-text-top rounded">
                 <span class="fw-bold text-primary-emphasis">IDN E-Report</span>
             </a>
@@ -44,19 +44,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto gap-4 pt-4 pt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Home</a>
+                        <a class="nav-link text-primary" href="index.html#Hero">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">About</a>
+                        <a class="nav-link text-primary" href="index.html#About">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#">Services</a>
+                        <a class="nav-link text-primary" href="index.html#Services">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#recent">Recent</a>
+                        <a class="nav-link text-primary" href="index.html#recent">Recent</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-primary" href="#faq">FAQ</a>
+                        <a class="nav-link text-primary" href="index.html#faq">FAQ</a>
                     </li>
                 </ul>
             </div>
@@ -69,14 +69,15 @@
         <div class="container">
             <!-- judul -->
             <div>
-                <h1 class="fw-bold text-primary-emphasis">Semua laporan</h1>
-                <p class="text-secondary lh-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt labore veritatis, veniam officia
+                <h1 class="fw-bold text-primary-emphasis text-center">Semua laporan</h1>
+                <p class="text-secondary lh-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt
+                    labore veritatis, veniam officia
                     delectus necessitatibus quia consequuntur esse, molestias voluptatum maiores sunt enim in
                     architecto!</p>
             </div>
 
             <!-- filter -->
-             <div class="row gap-3 md-0 mt-5">
+            <div class="row gap-3 md-0 mt-5 mb-5">
                 <div class="col-md-4">
                     <input type="text" class="form-control" placeholder="Cari laporan...">
                 </div>
@@ -90,12 +91,12 @@
                 </div>
                 <div class="col">
                     <div class="col">
-                    <select class="form-select">
-                        <option value="">Urutkan</option>
-                        <option value="terbaru">Terbaru</option>
-                        <option value="terlama">Terlama</option>
-                    </select>
-                </div>
+                        <select class="form-select">
+                            <option value="">Urutkan</option>
+                            <option value="terbaru">Terbaru</option>
+                            <option value="terlama">Terlama</option>
+                        </select>
+                    </div>
                 </div>
                 <div class="col-md-2">
                     <button class="btn btn-primary w-100">
@@ -103,10 +104,197 @@
                         Filter
                     </button>
                 </div>
-             </div>
+            </div>
+        </div>
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Akademik</span>
+                                <img src="./assets/images/kelas.jpg" class="card-img-top object-fit-cover" width="180" height="140" style="object-fit: cover; object-position: center;"
+                                    alt="Kelas kotor">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Kelas Kotor</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Ariq
+                                        Fathi</a>
+                                    • 2 days ago</p>
+                                <p class="card-text">Kondisi kelas yang tidak terawat dengan tumpukan buku berdebu dan
+                                    kursi
+                                    yang berantakan, mengganggu kenyamanan belajar siswa.</p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Keamanan</span>
+                                <img src="./assets/images/curi.webp" class="card-img-top object-fit-cover" width="180" height="140" style="object-fit: cover; object-position: center;"
+                                    alt="Pencurian">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Pencurian</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Police</a>
+                                    • 6
+                                    days ago</p>
+                                <p class="card-text">Kasus pencurian yang berhasil diungkap pihak berwajib. Empat pelaku
+                                    telah
+                                    diamankan dan proses hukum sedang berjalan.</p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Akademik</span>
+                                <img src="./assets/images/kelas.jpg" class="card-img-top object-fit-cover" width="180" height="140" style="object-fit: cover; object-position: center;"
+                                    alt="Kelas kotor">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Kelas Kotor</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Ariq
+                                        Fathi</a>
+                                    • 2 days ago</p>
+                                <p class="card-text">Kondisi kelas yang tidak terawat dengan tumpukan buku berdebu dan
+                                    kursi
+                                    yang berantakan, mengganggu kenyamanan belajar siswa.</p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Keamanan</span>
+                                <img src="./assets/images/curi.webp" class="card-img-top object-fit-cover"
+                                    alt="Pencurian">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Pencurian</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Police</a>
+                                    • 6
+                                    days ago</p>
+                                <p class="card-text">Kasus pencurian yang berhasil diungkap pihak berwajib. Empat pelaku
+                                    telah
+                                    diamankan dan proses hukum sedang berjalan.</p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Akademik</span>
+                                <img src="./assets/images/kelas.jpg" class="card-img-top object-fit-cover"
+                                    alt="Kelas kotor">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Kelas Kotor</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Ariq
+                                        Fathi</a>
+                                    • 2 days ago</p>
+                                <p class="card-text">Kondisi kelas yang tidak terawat dengan tumpukan buku berdebu dan
+                                    kursi
+                                    yang berantakan, mengganggu kenyamanan belajar siswa.</p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Keamanan</span>
+                                <img src="./assets/images/curi.webp" class="card-img-top object-fit-cover"
+                                    alt="Pencurian">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Pencurian</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Police</a>
+                                    • 6
+                                    days ago</p>
+                                <p class="card-text">Kasus pencurian yang berhasil diungkap pihak berwajib. Empat pelaku
+                                    telah
+                                    diamankan dan proses hukum sedang berjalan.</p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Fasilitas</span>
+                                <img src="./assets/images/lab.jpg" class="card-img-top object-fit-cover" width="180" height="140" style="object-fit: cover; object-position: center;"
+                                    alt="Lab komputer rusak">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Labkom Rusak</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Dimas
+                                        Pratama</a>
+                                    • 10 days ago</p>
+                                <p class="card-text">Sejumlah unit komputer di laboratorium dilaporkan rusak dan tidak
+                                    dapat
+                                    digunakan, sehingga menghambat kegiatan praktikum siswa selama proses pembelajaran.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Fasilitas</span>
+                                <img src="./assets/images/lab.jpg" class="card-img-top object-fit-cover" width="180" height="140" style="object-fit: cover; object-position: center;"
+                                    alt="Lab komputer rusak">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Labkom Rusak</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Dimas
+                                        Pratama</a>
+                                    • 10 days ago</p>
+                                <p class="card-text">Sejumlah unit komputer di laboratorium dilaporkan rusak dan tidak
+                                    dapat
+                                    digunakan, sehingga menghambat kegiatan praktikum siswa selama proses pembelajaran.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="card border-0 shadow-sm h-100 report-card">
+                            <div class="position-relative ratio ratio-4x3">
+                                <span class="report-card__badge">Fasilitas</span>
+                                <img src="./assets/images/lab.jpg" class="card-img-top object-fit-cover"
+                                    alt="Lab komputer rusak">
+                            </div>
+                            <div class="card-body d-flex flex-column gap-2">
+                                <h5 class="card-title mb-1">Laporan Labkom Rusak</h5>
+                                <p class="mb-2 text-muted small">by: <a class="text-decoration-none" href="#">Dimas
+                                        Pratama</a>
+                                    • 10 days ago</p>
+                                <p class="card-text">Sejumlah unit komputer di laboratorium dilaporkan rusak dan tidak
+                                    dapat
+                                    digunakan, sehingga menghambat kegiatan praktikum siswa selama proses pembelajaran.
+                                </p>
+                                <a href="#" class="btn btn-primary mt-auto">Selengkapnya</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            
+                <!-- pagination -->
+                 <nav aria-label="Page navigation example">
+                 <ul class="pagination justify-content-center mt-5">
+                <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item "><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+         </nav>
         </div>
     </section>
-
     <!-- footer -->
     <footer class="site-footer">
         <div class="container">
@@ -125,11 +313,11 @@
                 <div class="col-lg-2 col-md-4 col-sm-6">
                     <div class="site-footer__links">
                         <h4>Menu</h4>
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Services</a>
-                        <a href="#recent">Recent</a>
-                        <a href="#faq">FAQ</a>
+                        <a href="index.html#Hero">Home</a>
+                        <a href="index.html#About">Tentang Kami</a>
+                        <a href="index.html#Services">Layanan Kami</a>
+                        <a href="index.html#recent">Recent</a>
+                        <a href="index.html#faq">FAQ</a>
                     </div>
                 </div>
 
